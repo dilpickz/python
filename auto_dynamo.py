@@ -1,3 +1,8 @@
+"""
+Dillon Ramsey
+Auto Fill DynamoDB
+"""
+
 import boto3
 import sys
 
@@ -25,6 +30,7 @@ class user_table():
             print(indexes)
             counter += 1
 
+#still working this portion.
 def main_menu():
     main_table=input("What table do you want to use: ")
     table=user_table(main_table)
