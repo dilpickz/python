@@ -1,6 +1,8 @@
 """
 Dillon Ramsey
 AWS DynamoDB Auto Fill application
+This app lets a user add a specified number of items to an existing DynamoDB table
+as well as the attributes the items have.
 """
 import boto3
 
